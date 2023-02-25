@@ -1,0 +1,96 @@
+body{margin: 0;padding: 0;}
+
+.topnav{
+    border-bottom:firebric;
+    
+    
+
+}
+.reminder{
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding:2px;
+    text-align: center;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.reminder a{
+    color:white;
+    border-bottom: dashed 1px;
+    text-decoration: none;
+}
+.reminder a:hover{
+    color:blue;
+}
+.logolo img{
+    max-width: 150px;
+    height: auto;
+}
+.logolo{
+    border-bottom:  solid 1px;
+    display:flex;
+    border-color: black;
+    justify-content: space-between;
+    height: 60px;
+    margin:0px;
+}
+.toptextright{
+    list-style: none;
+    width: auto;
+    display:flex;
+    justify-content: space-between;
+
+    text-align: center;
+    margin:0px;
+}
+
+.topimg{
+    width: 140px;
+    height: 5px;
+    padding: 13px;
+    margin:0px 5px 0px 5px;
+}
+.toptextright-heading{
+
+    display:flex;
+    align-items: center;
+    border: 0.5px rgb(222, 221, 221) solid;
+    width:150px;
+    height:60px;
+    margin:0px;
+    
+    text-align: center;
+    padding-left: 50px;
+
+    font-size: medium;
+}
+.toptextright-headingp2p{
+    height: 60px;
+    width: 90px;
+    border: 0.5px solid rgb(242, 242, 242);
+    align-items: center;
+    margin: 0px;
+    padding-left:  65px;
+    display:flex;
+}
+.toptextright-headinglogin{
+    width: 100px;height: 60px;border: 0.5px solid rgb(242, 242, 242);
+    align-items: center;
+    margin: 0px;
+    padding-left:50px;
+    display:flex;
+}
+.toptextright-headingsign{
+    width: 100px;height: 60px;border: 0.5px solid rgb(138, 137, 137);
+    align-items: center;
+    margin: 0px;
+    padding-left:50px;
+    display:flex;
+    background-color: yellow;
+}
+.middle{
+    height:900px;
+    width: 100%;
+    background-color:#3067f0;
+}
